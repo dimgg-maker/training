@@ -1,11 +1,60 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>pemula coding</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke CSS -->
 </head>
 <body>
-  <h1>maaf sedang belajar</h1>
+    <header>
+        <h1>Halo maaf saya pemula!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>aku sedang mencoba</h2>
+            <p>untuk saat ini tidak ada isi.</p>
+            <button id="alertButton">Klik Saya!</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 website pertama saya</p>
+    </footer>
+
+    document.addEventListener("DOMContentLoaded", function() {
+        alert("maaf sedang belajar!");
+    });
+    <script src="script.js"></script>
 </body>
 </html>
+
+</styles.cssbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
